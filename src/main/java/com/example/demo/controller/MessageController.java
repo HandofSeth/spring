@@ -10,11 +10,11 @@ public class MessageController {
     @GetMapping("/msg")
     public String showMessage(Model model)
     {
-        model.addAttribute("attr", "attr");
+        String Name = "name";
 
-        String test = "test";
+        model.addAttribute("attr", Name);
 
 
-        return test;
+        return "MessagePage";
     }
 }
