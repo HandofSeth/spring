@@ -13,7 +13,7 @@ public class MessageController {
     {
         String Name = "name";
 
-        model.addAttribute("attr", Name);
+        //model.addAttribute("attr", Name);
 
 
         return Name;
